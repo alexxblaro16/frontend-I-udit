@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prueba JS - Commit 1</title>
+  <title>Prueba JS - Commit 2</title>
   <script src="assets/js/main.js" defer></script>
   <style>
     body {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       height: 100vh;
       background: linear-gradient(to right, #ffecd2, #fcb69f);
       font-family: Arial, sans-serif;
@@ -19,10 +20,26 @@
       color: #333;
       font-size: 3em;
       text-align: center;
+      margin-bottom: 30px;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff6b6b;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      background-color: #ff3b3b;
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
   <h1>Hola Mundo</h1>
+  <button id="miBoton">Haz clic aquí</button>
 </body>
 </html>
