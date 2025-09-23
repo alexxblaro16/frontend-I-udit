@@ -6,3 +6,8 @@ const boton = document.getElementById("miBoton");
 boton.addEventListener("click", () => {
   alert("¡Botón clickeado!");
 });
+
+// Commit 3: Dynamic Event with Scroll
+window.addEventListener("scroll", () => {
+  console.log("¡Estás desplazándote!");
+});
